@@ -30,7 +30,6 @@ class DynamicStyles extends Component {
       <Wrapper>
         <H3>Dynamic styles</H3>
         <FlashMsg success={this.state.success}>{this.state.success?'Succeeded':'Failed'}</FlashMsg>
-        <Button type='submit' onClick={this.handleCheck}>Submit button</Button>
       </Wrapper>
     )
   }

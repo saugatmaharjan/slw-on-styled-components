@@ -65,7 +65,7 @@ const Sidebar = (props)=>{
         <ListItem location={props.match.url} url='/extending'><NavLink to='/extending'>Extending styles</NavLink></ListItem>
         <ListItem location={props.match.url} url='/dynamicStyles'><NavLink to='/dynamicStyles'>Dynamic styles</NavLink></ListItem>
         <ListItem location={props.match.url} url='/theming'><NavLink to='/theming'>Theming</NavLink></ListItem>
-        <ListItem location={props.match.url} url='/animations'><NavLink to='/animations'>Animations</NavLink></ListItem>
+        <ListItem location={props.match.url} url='/animation'><NavLink to='/animation'>Animations</NavLink></ListItem>
         <ListItem location={props.match.url} url='/mediaQueries'><NavLink to='/mediaQueries'>Media queries</NavLink></ListItem>
       </List>
     </SidebarWrapper>

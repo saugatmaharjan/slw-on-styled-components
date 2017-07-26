@@ -49,12 +49,6 @@ const ExtendComponents = (props)=>{
     <Wrapper>
       <p className="App-intro">Extending styled components</p>
       <Button>Default Button</Button>
-      <SuccessButton>Success Button</SuccessButton>
-      <DangerButton>Danger Button</DangerButton>
-      <DisabledButton>Disabled button</DisabledButton>
-      <Hr/>
-      <BigButton>Big Button</BigButton>
-      <BorderButton>Bordered Button</BorderButton>
     </Wrapper>
   )
 }
